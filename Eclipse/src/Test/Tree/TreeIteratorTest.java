@@ -1,12 +1,20 @@
-package Test;
+package Test.Tree;
 
 import static org.junit.jupiter.api.Assertions.*;
 import DataStructures.Tree.*;
-
 import org.junit.jupiter.api.Test;
 
 class TreeIteratorTest {
 	
+	/*
+	 * 			60
+	 * 		   /  \
+	 * 		  20  70
+	 * 		 /  \
+	 *      10  40
+	 *         /  \
+ 	 * 		  30  50
+	 */
 	@Test
 	void test() {
 		var tree1 = new BinaryTree<Integer>();
